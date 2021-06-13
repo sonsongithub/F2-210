@@ -184,4 +184,21 @@ I search OID using [this script](https://gist.github.com/nbrownus/dfd8ab05728bbf
 
 ## Customize graphs by graphite 
 
-To be written.
+You can customize graphs in graphite. Like as the following picture,
+
+<img width="736" alt="スクリーンショット 2021-06-13 17 30 29" src="https://user-images.githubusercontent.com/33768/121800492-479e7280-cc6d-11eb-9f06-be104d624103.png">
+
+You can edit properties of a graph by editing `/etc/icingaweb2/modules/graphite/templates/default.ini`. And, editing configure files, `/usr/local/share/icingaweb2/modules/graphite/templates`, you change appearance of graphs.
+
+## References
+
+1. https://community.ui.com/questions/ssh-authorizedkeys/df244c69-9b9c-4662-93d6-820a5f07b53f
+2. https://community.ui.com/questions/Deleting-a-previously-loaded-SSH-auth-key-from-the-config/13fa1c42-a84f-4c9a-b602-d46a294c7c1f
+3. https://community.ui.com/questions/Problem-running-SSH-Putty-script-towards-EdgeRouter/730d2baa-41f1-4a49-89df-b10fa70856d5
+4. https://community.icinga.com/t/how-to-adjust-the-graphite-background-color/3172/4
+5. https://github.com/mlutfy/nagios-plugins/blob/master/check_max_open_files.sh
+6. https://qiita.com/papillon/items/abbb210fa927911f7e33
+7. https://qiita.com/papillon/items/5bb8c4b19382cd8838de
+8. https://techexpert.tips/ja/アイシングア2/icinga2-icmp-モニタリング/
+9. https://techexpert.tips/ja/アイシングア2/icinga2-ウェブサイトのモニタリング/
+10. 
